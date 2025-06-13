@@ -55,6 +55,15 @@ body {
 
 .three {
   font-size: 3rem;
+  animation: fadeInOut 10s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .four .text-box {
